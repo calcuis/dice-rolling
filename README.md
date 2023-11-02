@@ -8,7 +8,7 @@ import random
 ```
 This line imports the random module, which provides functions for generating random numbers. In this code, it will be used to simulate the rolling of dice.
 
-Defining a dictionary dice_code:
+Defining a dictionary `dice_code`:
 ```
 dice_code = {
     1: ("⚀"),
@@ -34,7 +34,7 @@ Prompting the user for the number of dice to roll:
 ```
 num_of_dice = int(input("How many dice?: "))
 ```
-This line asks the user to enter the number of dice they want to roll, and the input is converted to an integer and stored in the num_of_dice variable.
+This line asks the user to enter the number of dice they want to roll, and the input is converted to an integer and stored in the `num_of_dice` variable.
 
 Rolling the dice and storing the results in the dice list:
 ```
@@ -48,7 +48,7 @@ Printing the results of rolling the dice:
 for die in dice:
     print(dice_code.get(die), end="")
 ```
-This loop iterates through the dice list and uses the dice_code dictionary to print the corresponding Unicode character for each roll. The end="" argument in the print function ensures that the characters are printed on the same line.
+This loop iterates through the dice list and uses the `dice_code` dictionary to print the corresponding Unicode character for each roll. The `end=""` argument in the print function ensures that the characters are printed on the same line.
 
 Printing the total sum of the dice rolls:
 ```
